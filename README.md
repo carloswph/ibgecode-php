@@ -10,5 +10,7 @@ use WPH\IBGE\IBGE;
 require __DIR__ . '/vendor/autoload.php';
 
 $try = new IBGE(['5200050', '2300101', '99999999999']);
-$try->getBoth();
+$try->getCity(); // return an array of city names for each code
+$try->getState(); // return an array of state codes for those
+$try->getBoth(); // return an array of arrays, each with key-value pairs for cities and state codes
 ```
