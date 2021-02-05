@@ -1,0 +1,11 @@
+{
+    "name": "carloswph/ibgecode-php",
+    "type": "library",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "geral@meuppt.pt"
+        }
+    ],
+    "require": {}
+}
