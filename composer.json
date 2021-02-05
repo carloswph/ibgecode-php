@@ -1,13 +1,19 @@
 {
     "name": "carloswph/ibgecode-php",
+    "description": "Simple library to retrieve Brazilian city and respective state from the IBGE code.",
     "type": "library",
+    "license": "GPL-3.0-or-later",
+    "keywords": ["ibge", "brasil", "brazil", "brazilian"],
     "authors": [
         {
             "name": "carlos",
-            "email": "geral@meuppt.pt"
+            "email": "carlos@wp-helpers.com",
+            "homepage": "https://wp-helpers.com",
         }
     ],
-    "require": {},
+    "require": {
+    	"php": ">=7.0.1",
+    },
     "autoload": {
     	"psr-4": {
     		"WPH\\IBGE\\": "src/"
