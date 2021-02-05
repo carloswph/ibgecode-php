@@ -26,7 +26,7 @@ $try = new IBGE(['5200050', '2300101', '99999999999']);
 $try->getCity(); // return an array of city names for each code
 $json = $try->toJson();
 
-echo = $json;
+echo $json;
 
 // Results in:
 // [{"cidade":"Abadia de Goi\u00e1s","estado":"GO"},{"cidade":"Abaiara","estado":"CE"},["C\u00f3digo Inexistente."]]
