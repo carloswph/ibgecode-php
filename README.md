@@ -1,5 +1,6 @@
 # ibgecode-php
 Simple library to retrieve Brazilian city and respective state from the IBGE code.
+[PHP Lint](https://img.shields.io/badge/PHP%20Lint-passed-green)
 
 # Usage
 Simple autoload and instantiate the IBGE classe - including an array of the searched codes as parameter. From the initial instance, the class admits methods to get the respective city, the state or both. All methods return and array of results. 
