@@ -8,7 +8,7 @@
         {
             "name": "carlos",
             "email": "carlos@wp-helpers.com",
-            "homepage": "https://wp-helpers.com",
+            "homepage": "https://wp-helpers.com"
         }
     ],
     "require": {
