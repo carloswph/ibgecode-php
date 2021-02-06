@@ -6,7 +6,7 @@ Simple library to retrieve Brazilian city and respective state from the IBGE cod
 Just require the library using Composer `composer require carloswph/ibgecode-php`.
 
 # Usage
-Simple autoload and instantiate the IBGE classe - including an array of the searched codes as parameter. From the initial instance, the class admits methods to get the respective city, the state or both. All methods return and array of results. 
+Simply autoload and instantiate the IBGE class - including an array of the searched codes as parameter. From the initial instance, the class admits methods to get the respective city, the state or both. All methods return an array of results. 
 
 ```php
 use WPH\IBGE\IBGE;
